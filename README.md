@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist phamxuanloc/yii2-jui-timepicker "*"
 or add
 
 ```
-"pheme/yii2-jui-timepicker": "*"
+"phamxuanloc/yii2-jui-timepicker": "*"
 ```
 
 to the require section of your `composer.json` file.
