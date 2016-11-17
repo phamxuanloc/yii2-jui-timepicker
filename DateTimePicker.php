@@ -5,7 +5,7 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\jui;
+namespace phamxuanloc\jui;
 
 use Yii;
 use yii\helpers\Json;

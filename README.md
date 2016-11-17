@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist pheme/yii2-jui-timepicker "*"
+php composer.phar require --prefer-dist phamxuanloc/yii2-jui-timepicker "*"
 ```
 
 or add
@@ -28,9 +28,9 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= $form->field($model, 'datetime')->widget(\pheme\jui\DateTimePicker::className()) ?>
+<?= $form->field($model, 'datetime')->widget(\phamxuanloc\jui\DateTimePicker::className()) ?>
 ```
 
 ```php
-<?= $form->field($model, 'time')->widget(\pheme\jui\DateTimePicker::className(), ['timeOnly' => true]) ?>
+<?= $form->field($model, 'time')->widget(\phamxuanloc\jui\DateTimePicker::className(), ['timeOnly' => true]) ?>
 ```
